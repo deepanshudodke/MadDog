@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bangers", cursive;
+}
+
+body {
+  background: url(./bg.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 7px 5px rgba(134, 123, 123, 0.3),
+    0px -4px 10px rgba(236, 205, 205, 0.3);
+  text-align: center;
+  margin-top: 30px;
+  font-size: 90px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  margin-inline: 130px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 600px;
+  max-width: 600px;
+  border: 2px white solid;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+p {
+  font-family: "Creepster";
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: 20px 0px 10px rgb(0, 0, 0);
+  margin-top: 30px;
+}
+
+img:hover {
+  transform: translate(10px, 10px);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+span {
+  font-family: "Creepster";
+  color: red;
+}
+
+.audio1 {
+  display: none;
+}
+
+.audio1,
+.audio2 {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.add .audio1 {
+  display: block;
+}
+
+.add .audio2 {
+  display: none;
+}
