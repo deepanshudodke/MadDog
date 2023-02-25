@@ -26,6 +26,7 @@ export class UI {
                 context.fillText('Boo-yah', this.game.width * 0.5, this.game.height * 0.5 - 20);
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
                 context.fillText('What are creatures of night afraid of? YOU!!!', this.game.width * 0.5, this.game.height * 0.5 + 20);
+                
             } else {
                 context.fillText('Love at first Bite?', this.game.width * 0.5, this.game.height * 0.5 - 20);
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
